@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Categories | STRYKR SPORTS - Sopore</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Explore top sports equipment, sportswear, shoes, team jerseys, badminton rackets, cricket bats and gym accessories at STRYKR SPORTS in Down Town, Sopore.">
+    <meta name="keywords"
+        content="Cricket Bats Sopore, Football Studs Kashmir, Sports Shoes Sopore, Gym Equipment Sopore, Team Jerseys Kashmir">
+    <meta name="author" content="STRYKR SPORTS">
+    <meta name="robots" content="index, follow">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/icon.png">
+
+    <!-- Google Fonts: Montserrat & Orbitron & Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Orbitron:wght@400;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating Canvas Background -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Header / Navigation -->
+    <header class="glass-header" id="header">
+        <div class="container header-container">
+            <a href="index.html" class="nav-brand">
+                <img src="assets/logo.png" alt="STRYKR SPORTS Logo" class="brand-logo-header-img">
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="categories.html" class="nav-link active">Categories</a></li>
+                    <li><a href="location.html" class="nav-link">Location</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="https://wa.me/917006267296" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-whatsapp-sm btn-header-cta">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="tel:+919149804481" class="btn btn-neon-sm btn-header-cta">
+                    <i class="fa-solid fa-phone"></i> Call Now
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- PAGE BANNER -->
+        <section class="page-banner">
+            <div class="container">
+                <span class="page-banner-subtitle">PREMIUM SPORTS GEAR</span>
+                <h1 class="page-banner-title">Product <span class="accent-text">Categories</span></h1>
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span class="current">Categories</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCT CATEGORIES FULL GRID -->
+        <section class="section categories-section">
+            <div class="container">
+                <div class="section-header center fade-up">
+                    <span class="section-subtitle">EXPLORE ALL GEAR</span>
+                    <h2 class="section-title">Built For <span class="accent-text">Champions</span></h2>
+                    <div class="title-line center"></div>
+                </div>
+
+                <div class="categories-grid">
+                    <!-- 1. Cricket -->
+                    <div class="glass-card category-card fade-up">
+                        <div class="category-icon-wrapper">
+                            <span class="category-emoji">🏏</span>
+                        </div>
+                        <h3 class="category-title">Cricket</h3>
+                        <p class="category-desc">English Willow & Kashmir Willow bats, batting pads, gloves, helmets,
+                            leather match balls & kitbags.</p>
+                        <span class="category-badge">PRO GRADE GEAR</span>
+                    </div>
+
+                    <!-- 2. Football -->
+                    <div class="glass-card category-card fade-up">
+                        <div class="category-icon-wrapper">
+                            <span class="category-emoji">⚽</span>
+                        </div>
+                        <h3 class="category-title">Football</h3>
+                        <p class="category-desc">Official match footballs, firm ground studs, shin guards, goalkeeper
+                            gloves, agility cones & nets.</p>
+                        <span class="category-badge">MATCH & TRAINING</span>
+                    </div>
+
+                    <!-- 3. Badminton -->
+                    <div class="glass-card category-card fade-up">
+                        <div class="category-icon-wrapper">
+                            <span class="category-emoji">🏸</span>
+                        </div>
+                        <h3 class="category-title">Badminton</h3>
+                        <p class="category-desc">Full graphite rackets, feather & nylon shuttlecocks, synthetic court
+                            shoes, replacement grips & strings.</p>
+                        <span class="category-badge">YONEX & TOP BRANDS</span>
+                    </div>
+
+                    <!-- 4. Basketball -->
+                    <div class="glass-card category-card fade-up">
+                        <div class="category-icon-wrapper">
+                            <span class="category-emoji">🏀</span>
+                        </div>
+                        <h3 class="category-title">Basketball</h3>
+                        <p class="category-desc">Indoor/outdoor composite leather basketballs, court nets, training
+                            gear, arm sleeves & wristbands.</p>
+                        <span class="category-badge">HIGH GRIP GEAR</span>
+                    </div>
+
+                    <!-- 5. Volleyball -->
+                    <div class="glass-card category-card fade-up">
+                        <div class="category-icon-wrapper">
+                            <span class="category-emoji">🏐</span>
+                        </div>
+                        <h3 class="category-title">Volleyball</h3>
+                        <p class="category-desc">Official competition soft-touch volleyballs, heavy-duty tournament
+                            nets, knee guards & ball pumps.</p>
+                        <span class="category-badge">TOURNAMENT APPROVED</span>
+                    </div>
+
+                    <!-- 6. Sports Shoes -->
+                    <div class="glass-card category-card fade-up">
+                        <div class="category-icon-wrapper">
+                            <span class="category-emoji">👟</span>
+                        </div>
+                        <h3 class="category-title">Sports Shoes</h3>
+                        <p class="category-desc">High-cushion running shoes, turf studs, non-marking badminton shoes,
+                            cricket spikes & trainers.</p>
+                        <span class="category-badge">LIGHTWEIGHT & DURABLE</span>
+                    </div>
+
+                    <!-- 7. Sportswear -->
+                    <div class="glass-card category-card fade-up">
+                        <div class="category-icon-wrapper">
+                            <span class="category-emoji">👕</span>
+                        </div>
+                        <h3 class="category-title">Sportswear</h3>
+                        <p class="category-desc">Breathable Dri-FIT tees, athletic tracksuits, compression tops, shorts,
+                            hoodies & thermal layers.</p>
+                        <span class="category-badge">ACTIVE APPAREL</span>
+                    </div>
+
+                    <!-- 8. Team Jerseys -->
+                    <div class="glass-card category-card fade-up">
+                        <div class="category-icon-wrapper">
+                            <span class="category-emoji">🎽</span>
+                        </div>
+                        <h3 class="category-title">Team Jerseys</h3>
+                        <p class="category-desc">Customized club kits, school sports uniforms, international
+                            football/cricket fan jerseys & sublimation prints.</p>
+                        <span class="category-badge">CUSTOM PRINTING</span>
+                    </div>
+
+                    <!-- 9. Gym Equipment -->
+                    <div class="glass-card category-card fade-up">
+                        <div class="category-icon-wrapper">
+                            <span class="category-emoji">💪</span>
+                        </div>
+                        <h3 class="category-title">Gym Equipment</h3>
+                        <p class="category-desc">Rubber hex dumbbells, heavy resistance bands, kettlebells, push-up
+                            bars, ab rollers & thick yoga mats.</p>
+                        <span class="category-badge">FITNESS & WORKOUT</span>
+                    </div>
+
+                    <!-- 10. Accessories -->
+                    <div class="glass-card category-card fade-up">
+                        <div class="category-icon-wrapper">
+                            <span class="category-emoji">🎒</span>
+                        </div>
+                        <h3 class="category-title">Accessories</h3>
+                        <p class="category-desc">Duffle sports bags, insulated water bottles, sweatbands, protein
+                            shakers, skipping ropes & agility ladders.</p>
+                        <span class="category-badge">ESSENTIAL GEAR</span>
+                    </div>
+                </div>
+
+                <!-- CUSTOM TEAM JERSEYS BANNER -->
+                <div class="glass-card custom-banner-card fade-up">
+                    <span class="section-subtitle">BULK & CUSTOM ORDERS</span>
+                    <h2 class="section-title" style="margin-bottom: 15px;">Custom Team Kits & <span
+                            class="accent-text">School Uniforms</span></h2>
+                    <p class="social-text" style="margin-bottom: 25px;">Need customized team jerseys with player names,
+                        numbers, or school logos? We specialize in high-quality sublimation sports printing for clubs &
+                        academies.</p>
+                    <a href="contact.html" class="btn btn-neon btn-lg">
+                        <i class="fa-solid fa-shirt"></i> Request Custom Quote
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURED BRANDS -->
+        <section class="section brands-section">
+            <div class="container">
+                <div class="section-header center fade-up">
+                    <span class="section-subtitle">OFFICIAL BRANDS</span>
+                    <h2 class="section-title">Global <span class="accent-text">Partners</span></h2>
+                    <div class="title-line center"></div>
+                </div>
+
+                <div class="brands-grid fade-up">
+                    <div class="brand-item" title="Nike"><span class="brand-name-text">NIKE</span></div>
+                    <div class="brand-item" title="Adidas"><span class="brand-name-text">ADIDAS</span></div>
+                    <div class="brand-item" title="Puma"><span class="brand-name-text">PUMA</span></div>
+                    <div class="brand-item" title="Yonex"><span class="brand-name-text">YONEX</span></div>
+                    <div class="brand-item" title="SS Cricket"><span class="brand-name-text">SS</span></div>
+                    <div class="brand-item" title="MRF"><span class="brand-name-text">MRF</span></div>
+                    <div class="brand-item" title="Nivia"><span class="brand-name-text">NIVIA</span></div>
+                    <div class="brand-item" title="Cosco"><span class="brand-name-text">COSCO</span></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating WhatsApp Widget Button -->
+    <a href="https://wa.me/917006267296" target="_blank" rel="noopener noreferrer" class="whatsapp-float-btn"
+        title="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with us</span>
+    </a>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand-col">
+                <a href="index.html" class="footer-logo">
+                    <img src="assets/logo.png" alt="STRYKR SPORTS Logo" class="brand-logo-footer-img">
+                </a>
+                <p class="footer-tagline">Fuel The Game</p>
+                <p class="footer-desc">Your ultimate high-performance sports, fitness, and activewear outlet.</p>
+            </div>
+
+            <div class="footer-links-col">
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Who We Are</a></li>
+                    <li><a href="categories.html">Product Categories</a></li>
+                    <li><a href="location.html">Store Location</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact-col">
+                <h4 class="footer-heading">Contact Details</h4>
+                <ul class="footer-contact-list">
+                    <li>
+                        <i class="fa-solid fa-location-dot accent-text"></i>
+                        <a href="https://www.google.com/maps/place/Strykr+Sports+Sopore/@34.2820489,74.4630497,17z"
+                            target="_blank" rel="noopener noreferrer">Down Town, Sopore, Jammu & Kashmir</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone accent-text"></i>
+                        <a href="tel:+919149804481">+91 9149804481</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-whatsapp whatsapp-icon-color"></i>
+                        <a href="https://wa.me/917006267296" target="_blank" rel="noopener noreferrer">+91 70062
+                            67296</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-facebook-f accent-text"></i>
+                        <a href="https://www.facebook.com/strykrsports" target="_blank"
+                            rel="noopener noreferrer">facebook.com/strykrsports</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-instagram accent-text"></i>
+                        <a href="https://www.instagram.com/strykrsports/" target="_blank"
+                            rel="noopener noreferrer">instagram.com/strykrsports</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p>&copy; 2026 <strong>STRYKR SPORTS</strong>. All Rights Reserved. Powered by <span
+                        class="powered-by-text">Dort Caliph Private Limited</span>.</p>
+                <a href="#header" class="back-to-top" aria-label="Back to top">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+
+</html>
